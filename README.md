@@ -91,7 +91,7 @@ The LoginShield setup activity shows a message that the user must complete their
 
 ![WordPress Profile Activate LoginShield QRCode](image/wordpress_profile_security_activate_loginshield_qrcode_800.png)
 
-![WordPress Profile LoginShield Software](image/wordpress_profile_security_loginshield_software.png)
+![WordPress Profile LoginShield Software](image/wordpress_profile_security_loginshield_software_600.png)
 
 When the user snaps the QR code with the LoginShield app, the LoginShield app will prompt the user to login or cancel. When the user chooses to login, the LoginShield app will show the user a safety notice with the option to continue by email or their mobile browser. When the user chooses to continue by email, LoginShield will send the user an email with a link to continue to your website. When the user chooses to continue by mobile browser, LoginShield will open a browser on the user's device to continue to your website. This step cannot be skipped and is an important part of the phishing protection.
 
