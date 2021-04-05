@@ -60,7 +60,7 @@ This section assumes your website already has a standard password login. If you 
 
 It is typical for websites using a password login to display a login form that contains both the username and password, like this:
 
-![WordPress standard login with password](image/wordpress_standard_login_with_password.png)
+![WordPress standard login with password](image/wordpress_standard_login_with_password_600.png)
 
 Your website may have a similar login form. In this form there is a one-step process: the user submits their username and password. After you complete the LoginShield integration, your login form will use a two-step process:
 
@@ -69,13 +69,13 @@ Your website may have a similar login form. In this form there is a one-step pro
 
 An example of the 2-step login for password users:
 
-![WordPress 2-step login username](image/wordpress_login_username.png)
+![WordPress 2-step login username](image/wordpress_login_username_600.png)
 
-![WordPress 2-step login password](image/wordpress_login_password.png)
+![WordPress 2-step login password](image/wordpress_login_password_600.png)
 
 An example of the 2-step login for LoginShield users:
 
-![WordPress 2-step login username](image/wordpress_login_username.png)
+![WordPress 2-step login username](image/wordpress_login_username_600.png)
 
 ![WordPress 2-step login username](image/wordpress_loginshield_step2_onetap_600.png)
 
@@ -85,11 +85,11 @@ A user with an existing account edits their account settings to setup LoginShiel
 
 Where the user has not yet been registered with the LoginShield API (the `is_registered` flag is false), the account settings show a message that LoginShield is available and a button to continue. When the user taps the button, an indeterminate progress indicator is presented while the server registers the user with LoginShield. When the registration is complete (the `is_registered` flag is true and the `is_confirmed` flag is false), the account settings direct the user to the LoginShield setup activity to complete the LoginShield setup. This activity could be on a separate page or a section of the same page that would normally be hidden.
 
-![WordPress Profile Activate LoginShield Button](image/wordpress_profile_security_activate_loginshield_button.png)
+![WordPress Profile Activate LoginShield Button](image/wordpress_profile_security_activate_loginshield_button_600.png)
 
 The LoginShield setup activity shows a message that the user must complete their first LoginShield login to continue, and shows the LoginShield login (the LoginShield iframe). The activity also shows a link `https://loginshield.com/software/` for users to download the LoginShield app for their device if they don't have it yet. The activity should show a message that the user must use the LoginShield app to snap the QR code.
 
-![WordPress Profile Activate LoginShield QRCode](image/wordpress_profile_security_activate_loginshield_qrcode.png)
+![WordPress Profile Activate LoginShield QRCode](image/wordpress_profile_security_activate_loginshield_qrcode_800.png)
 
 ![WordPress Profile LoginShield Software](image/wordpress_profile_security_loginshield_software.png)
 
@@ -99,7 +99,7 @@ When the user follows the link to return to the LoginShield setup activity on yo
 
 When the user returns to account settings, the user sees that LoginShield is activated. 
 
-![WordPress Profile Activate LoginShield Checkbox On](image/wordpress_profile_security_activate_loginshield_checkbox_on.png)
+![WordPress Profile Activate LoginShield Checkbox On](image/wordpress_profile_security_activate_loginshield_checkbox_on_600.png)
 
 ### Activate LoginShield
 
@@ -109,7 +109,7 @@ When the user taps the checkbox or switch control, the control changes to the "c
 
 When LoginShield is activated, the account settings show a checkbox or switch control in the "checked" or "on" position and a statement that the user's account is currently protected by LoginShield.
 
-![WordPress Profile Activate LoginShield Checkbox On](image/wordpress_profile_security_activate_loginshield_checkbox_on.png)
+![WordPress Profile Activate LoginShield Checkbox On](image/wordpress_profile_security_activate_loginshield_checkbox_on_600.png)
 
 ### Deactivate LoginShield
 
@@ -119,7 +119,7 @@ When the user taps the checkbox or switch control, the control changes to the "u
 
 When LoginShield is deactivated, the account settings show a checkbox or switch control in the "unchecked" or "off" position and a warning that the user's account is currently NOT protected by LoginShield.
 
-![WordPress Profile Activate LoginShield Checkbox Off](image/wordpress_profile_security_activate_loginshield_checkbox_off.png)
+![WordPress Profile Activate LoginShield Checkbox Off](image/wordpress_profile_security_activate_loginshield_checkbox_off_600.png)
 
 ### Reset LoginShield
 
@@ -129,7 +129,7 @@ This procedure is completely dependent on the website security procedures for id
 
 When the user has been authenticated, the website resets the LoginShield settings for the user (`is_registered` is false, `is_confirmed` is false, `is_activated` is false, but `loginshield_user_id` is left unchanged), then displays the account settings where user can setup LoginShield again.
 
-![WordPress Profile Reset LoginShield Button](image/wordpress_profile_security_reset_loginshield_button.png)
+![WordPress Profile Reset LoginShield Button](image/wordpress_profile_security_reset_loginshield_button_175.png)
 
 ## Alternative User Experience
 
